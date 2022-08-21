@@ -43,3 +43,25 @@ input[type="password"]::-ms-reveal {
     top: 0.6em;
     z-index: 9;
 }
+.timer{
+    height: 75px;
+    background-color: #000080;
+    border-radius: 10px;
+}
+.timer span {
+    padding: 15px;
+    font-weight: 600;
+}
+
+.hour, .minutes, .seconds{
+    font-weight: 900;
+    font-size: 28px;
+    color: #FF9933;
+}
+.minutes, .minutes span{
+    color: #FFFFFF;
+}
+.seconds, .seconds span{
+    color: #138808;
+}
+
